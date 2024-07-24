@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo yum -y update
+cd
 sudo yum -y install git
 git clone https://github.com/nisitasubudhi/Fuel-Consumption-Rating.git
 sudo yum -y install python3-pip
