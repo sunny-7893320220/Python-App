@@ -1,8 +1,8 @@
 resource "aws_instance" "demoinstance" {
-  ami                         = "ami-01fccab91b456acc2"
+  ami                         = "ami-03972092c42e8c0ca"
   instance_type               = "t2.micro"
   count                       = 1
-  key_name                    = "linuxx"
+  key_name                    = "test"
   vpc_security_group_ids      = ["${aws_security_group.demosg.id}"]
   subnet_id                   = "${aws_subnet.pub-subnet-1.id}"
   associate_public_ip_address = true   
