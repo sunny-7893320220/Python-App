@@ -1,4 +1,5 @@
 #!/bin/bash
+cd 
 sudo yum -y update
 sudo yum -y install git
 git clone https://github.com/nisitasubudhi/Fuel-Consumption-Rating.git
